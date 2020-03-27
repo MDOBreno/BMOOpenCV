@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33C59FFB242DA13300D3651A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33C59FFA242DA13300D3651A /* main.cpp */; };
+		33C59FE5242D4EB700D3651A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33C59FE4242D4EB700D3651A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		33C59FF5242DA13300D3651A /* CopyFiles */ = {
+		33C59FDF242D4EB700D3651A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		33C59FF7242DA13300D3651A /* BMOOpenCV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BMOOpenCV; sourceTree = BUILT_PRODUCTS_DIR; };
-		33C59FFA242DA13300D3651A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		33C59FE1242D4EB700D3651A /* BMOOpenCV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BMOOpenCV; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C59FE4242D4EB700D3651A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		33C59FEC242D948B00D3651A /* BMOOpenCV.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = BMOOpenCV.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33C59FF4242DA13300D3651A /* Frameworks */ = {
+		33C59FDE242D4EB700D3651A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +39,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		33C59FEE242DA13300D3651A = {
+		33C59FD8242D4EB700D3651A = {
 			isa = PBXGroup;
 			children = (
-				33C59FF9242DA13300D3651A /* BMOOpenCV */,
-				33C59FF8242DA13300D3651A /* Products */,
+				33C59FE3242D4EB700D3651A /* BMOOpenCV */,
+				33C59FE2242D4EB700D3651A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		33C59FF8242DA13300D3651A /* Products */ = {
+		33C59FE2242D4EB700D3651A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33C59FF7242DA13300D3651A /* BMOOpenCV */,
+				33C59FE1242D4EB700D3651A /* BMOOpenCV */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33C59FF9242DA13300D3651A /* BMOOpenCV */ = {
+		33C59FE3242D4EB700D3651A /* BMOOpenCV */ = {
 			isa = PBXGroup;
 			children = (
-				33C59FFA242DA13300D3651A /* main.cpp */,
+				33C59FED242D9DD700D3651A /* Certificado */,
+				33C59FE4242D4EB700D3651A /* main.cpp */,
 			);
 			path = BMOOpenCV;
+			sourceTree = "<group>";
+		};
+		33C59FED242D9DD700D3651A /* Certificado */ = {
+			isa = PBXGroup;
+			children = (
+				33C59FEC242D948B00D3651A /* BMOOpenCV.entitlements */,
+			);
+			path = Certificado;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33C59FF6242DA13300D3651A /* BMOOpenCV */ = {
+		33C59FE0242D4EB700D3651A /* BMOOpenCV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33C59FFE242DA13300D3651A /* Build configuration list for PBXNativeTarget "BMOOpenCV" */;
+			buildConfigurationList = 33C59FE8242D4EB700D3651A /* Build configuration list for PBXNativeTarget "BMOOpenCV" */;
 			buildPhases = (
-				33C59FF3242DA13300D3651A /* Sources */,
-				33C59FF4242DA13300D3651A /* Frameworks */,
-				33C59FF5242DA13300D3651A /* CopyFiles */,
+				33C59FDD242D4EB700D3651A /* Sources */,
+				33C59FDE242D4EB700D3651A /* Frameworks */,
+				33C59FDF242D4EB700D3651A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,24 +89,24 @@
 			);
 			name = BMOOpenCV;
 			productName = BMOOpenCV;
-			productReference = 33C59FF7242DA13300D3651A /* BMOOpenCV */;
+			productReference = 33C59FE1242D4EB700D3651A /* BMOOpenCV */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		33C59FEF242DA13300D3651A /* Project object */ = {
+		33C59FD9242D4EB700D3651A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
-				ORGANIZATIONNAME = ProgramasBMO;
+				ORGANIZATIONNAME = Udemy;
 				TargetAttributes = {
-					33C59FF6242DA13300D3651A = {
+					33C59FE0242D4EB700D3651A = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
-			buildConfigurationList = 33C59FF2242DA13300D3651A /* Build configuration list for PBXProject "BMOOpenCV" */;
+			buildConfigurationList = 33C59FDC242D4EB700D3651A /* Build configuration list for PBXProject "BMOOpenCV" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +114,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 33C59FEE242DA13300D3651A;
-			productRefGroup = 33C59FF8242DA13300D3651A /* Products */;
+			mainGroup = 33C59FD8242D4EB700D3651A;
+			productRefGroup = 33C59FE2242D4EB700D3651A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33C59FF6242DA13300D3651A /* BMOOpenCV */,
+				33C59FE0242D4EB700D3651A /* BMOOpenCV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33C59FF3242DA13300D3651A /* Sources */ = {
+		33C59FDD242D4EB700D3651A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33C59FFB242DA13300D3651A /* main.cpp in Sources */,
+				33C59FE5242D4EB700D3651A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		33C59FFC242DA13300D3651A /* Debug */ = {
+		33C59FE6242D4EB700D3651A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +194,7 @@
 			};
 			name = Debug;
 		};
-		33C59FFD242DA13300D3651A /* Release */ = {
+		33C59FE7242D4EB700D3651A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,22 +245,74 @@
 			};
 			name = Release;
 		};
-		33C59FFF242DA13300D3651A /* Debug */ = {
+		33C59FE9242D4EB700D3651A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BMOOpenCV/BMOOpenCV.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L5RH7482C6;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"/Users/brenomedeiros/Documents/ProgramasBMO/iOS-Objective-C/TERCEIROS/opencv-3.4.9/build/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ProgramasBMO.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		33C5A000242DA13300D3651A /* Release */ = {
+		33C59FEA242D4EB700D3651A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BMOOpenCV/BMOOpenCV.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L5RH7482C6;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"/Users/brenomedeiros/Documents/ProgramasBMO/iOS-Objective-C/TERCEIROS/opencv-3.4.9/build/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ProgramasBMO.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -258,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33C59FF2242DA13300D3651A /* Build configuration list for PBXProject "BMOOpenCV" */ = {
+		33C59FDC242D4EB700D3651A /* Build configuration list for PBXProject "BMOOpenCV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33C59FFC242DA13300D3651A /* Debug */,
-				33C59FFD242DA13300D3651A /* Release */,
+				33C59FE6242D4EB700D3651A /* Debug */,
+				33C59FE7242D4EB700D3651A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33C59FFE242DA13300D3651A /* Build configuration list for PBXNativeTarget "BMOOpenCV" */ = {
+		33C59FE8242D4EB700D3651A /* Build configuration list for PBXNativeTarget "BMOOpenCV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33C59FFF242DA13300D3651A /* Debug */,
-				33C5A000242DA13300D3651A /* Release */,
+				33C59FE9242D4EB700D3651A /* Debug */,
+				33C59FEA242D4EB700D3651A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 33C59FEF242DA13300D3651A /* Project object */;
+	rootObject = 33C59FD9242D4EB700D3651A /* Project object */;
 }
