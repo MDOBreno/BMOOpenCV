@@ -3,7 +3,7 @@
 //  BMOOpenCV
 //
 //  Created by Breno Medeiros on 26/03/20.
-//  Copyright © 2020 Udemy. All rights reserved.
+//  Copyright © 2020 ProgramasBMO. All rights reserved.
 //
 
 #include <iostream>
